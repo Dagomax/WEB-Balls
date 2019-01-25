@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="Balls.css">
+<title>Bouncing Balls</title>
+</head>
+<body onload="loadInit()" >
+	<header>
+		<h1>Bouncing Balls</h1>
+	</header>
+<p> <br />Auf der Leinwand durch Klicken Bubbles erzeugen. <br /></p>
+<div id="statistics">
+		<p>
+			Anzahl Bubbles<br /><span id="nb_bubbles"></span>
+		</p>
+</div>
+<div id="statistics">
+		<p>
+			Anzahl Bumps<br /><span id="nb_bumps"></span>
+		</p>
+</div>
+<div class="slidecontainer">
+  <p>Größe der Bubbles:</p>
+  <input type="range" min="10" max="50" value="30" class="slider" id="myRange">
+</div>
+	<canvas id="canvas"></canvas>
+	<script src="Ballscript.js"></script>
+</body>
+</html>

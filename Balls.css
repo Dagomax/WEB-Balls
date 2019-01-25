@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+#statistics {
+	height: 100px;
+	width: 200px;
+	color: White;
+	font-size: 15px;
+	text-align: center;
+	background-color: Blue;
+/* 	border-style: dashed; */
+/* 	border: "1px solid #000000"; */
+    border-right: 5px solid white;
+	float: left;
+}
+#nb_bubbles {
+	font-size: 30px;
+}
+#nb_bumps {
+	font-size: 30px;
+}
+#canvas {
+	border: 2px solid #000000;
+}
